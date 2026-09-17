@@ -1,5 +1,3 @@
-cd ~/gibwork-bounty-radar-web
-mkdir -p src/app"use client";
 
 import { useMemo, useState } from "react";
 
@@ -295,3 +293,4 @@ function Metric({
       <p className="mt-1 font-semibold">{value}</p>
     </div>
   );
+}

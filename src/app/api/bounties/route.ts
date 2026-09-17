@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { createGibworkClient, keypairFromPrivateKey } from "@gibwork/sdk/node";
+import { createGibworkClient } from "@gibwork/sdk/node";
 
 export async function GET() {
   try {
@@ -13,7 +13,7 @@ export async function GET() {
     }
 
     const client = createGibworkClient({
-      privateKey: keypairFromPrivateKey(privateKey),
+      privateKey,
     });
 
     const response = await client.tasks.listAvailable({
