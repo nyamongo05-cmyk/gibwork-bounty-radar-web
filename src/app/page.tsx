@@ -120,7 +120,7 @@ export default function Home() {
               </p>
 
               <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
-                Gibwork Bounty Radar
+                Gibwork Bounty Radar — LIVE
               </h1>
 
               <p className="mt-2 max-w-2xl text-slate-400">
@@ -251,14 +251,14 @@ export default function Home() {
 
           <p className="mt-2 text-sm leading-6 text-slate-400">
             This dashboard currently uses demonstration bounty data.
-            The separate Gibwork Bounty Radar CLI connects to the
+            The separate Gibwork Bounty Radar — LIVE CLI connects to the
             Gibwork SDK. The next integration step is connecting this
             interface to a supported server-side Gibwork data source.
           </p>
         </section>
 
         <footer className="mt-10 border-t border-slate-800 pt-5 text-sm text-slate-500">
-          Gibwork Bounty Radar · Developer tooling prototype
+          Gibwork Bounty Radar — LIVE · Developer tooling prototype
         </footer>
       </div>
     </main>
